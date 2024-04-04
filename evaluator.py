@@ -29,7 +29,7 @@ class EvaluationEngine:
     self.score = {1: 0, 2: 0}
     self.rounds = randint(150,200)
     self.time_limit = 0.01  # seconds
-    self.error = -0.1
+    self.error = 0.01
     self.player1 = player1
     self.player2 = player2  
     self.players: list[BaseAgent] = [self.player1, self.player2]
